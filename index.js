@@ -9,7 +9,7 @@ const {
   
   client.on("ready", () => {
     console.log(`BOT LANCE, Avec ${client.users.size} membres, dans ${client.channels.size} salons et ${client.guilds.size} serveur.`);
-    client.user.setActivity(`Une question ? MP MOI`);
+    client.user.setActivity(`Ticket ➔ MP Moi !`);
   });
   
   client.on("guildCreate", guild => {
