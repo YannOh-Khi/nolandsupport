@@ -34,7 +34,7 @@ const {
   
     const embed = new RichEmbed()
         .setColor(0x2f3136)
-        .addField(`💬 Nouveau message de ${message.author.username}`, message.content + " " + pp)
+        .addField(`💬 Nouveau message de ${message.author.username}`, \n message.content + " " + pp)
         .setTimestamp();
     c.send({
         embed: embed
